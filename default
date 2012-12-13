@@ -1,0 +1,11 @@
+<?php
+    
+   include_once "src/facebook.php";
+   $app_id = '526891800661893';
+   $application_secret = '6b1ba3d107f5f50ee2b32d15ff0bb5fa';
+
+   $facebook = new Facebook(array(
+  'appId'  => $app_id,
+  'secret' => $application_secret,
+  'cookie' => true, // enable optional cookie support
+));
